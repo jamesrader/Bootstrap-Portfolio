@@ -1,7 +1,11 @@
 #navRow {
     border-bottom-style: solid;
-    border-width: 2px;
+    border-bottom-width: 2px;
     border-color:#ddd;
+}
+
+.navbar-brand {
+    font-size: 32px;
 }
 
 .no-hover {
@@ -12,4 +16,8 @@ body {
     background-image: url("../images/dust_scratches.png");
     margin: 0px;
     color: #777;
+}
+
+hr {
+    color: #ddd;
 }
