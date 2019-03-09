@@ -21,3 +21,15 @@ body {
 hr {
     color: #ddd;
 }
+
+.img-thumbnail {
+    width: 100%;
+}
+
+.thumbnail-text {
+    height: 20%;
+    position: absolute;
+    top: 60%;
+    width: 87%;
+    font-size: 5vw;
+}
