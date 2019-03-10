@@ -12,6 +12,7 @@
     pointer-events: none;
 }
 
+
 body {
     background-image: url("../images/dust_scratches.png");
     margin: 0px;
@@ -33,3 +34,12 @@ hr {
     width: 87%;
     font-size: 5vw;
 }
+
+#submitButton{
+    background-color: #4aaaa5;
+}
+
+#submitButton:hover{
+    background-color: #177772;
+}
+
