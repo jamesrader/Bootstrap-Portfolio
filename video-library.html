@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Portfolio Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container col-12">
+        <div class="row mb-4 bg-white" id="navRow">
+            <div class="col-sm-3"></div>
+            <nav class="navbar sticky-top navbar-light bg-white col-sm-6 py-0 pl-0">
+                <span class="navbar-brand mb-0 bg-info p-3 h1 font-weight-bold text-white">James Rader</span>
+                <ul class="nav justify-content-end ml-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary px-0" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-0 col-sm-3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white h2 pt-2 ml-3 text-info my-0">Video Library (JavaScript, PHP, MySQL)
+            <hr>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white ml-3">
+            <img src="assets/images/video-library-640.jpg" width="400px" class="float-sm-left mr-3 mb-2">
+
+            <p>This is a video library consisting of over 3,500 tennis video drills stored on Amazon S3.  It was originally written in Flash/ActionScript 3, and the data of each drill was contained in an XML file.</p>
+            <p>I updated this app by completely re-writing it in JavaScript.  I converted the XML file to a MySQL database.  I used an XSLT and Excel to convert the data for import into the database.</p>
+            <p>The dropdowns allow for filtering the drills are all populated dynamically, of course.  Access to the database is accomplished through PHP.</p>
+            <a href="portfolio.html" class="btn btn-info">Back to Portfolio</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    </div>
+
+</body>
+
+</html>

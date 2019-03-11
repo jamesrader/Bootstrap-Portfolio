@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Portfolio Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container col-12">
+        <div class="row mb-4 bg-white" id="navRow">
+            <div class="col-sm-3"></div>
+            <nav class="navbar sticky-top navbar-light bg-white col-sm-6 py-0 pl-0">
+                <span class="navbar-brand mb-0 bg-info p-3 h1 font-weight-bold text-white">James Rader</span>
+                <ul class="nav justify-content-end ml-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary px-0" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-0 col-sm-3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white h2 pt-2 ml-3 text-info my-0">Speed Tracker/Speed Viewer (C# and MySQL)
+            <hr>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white ml-3">
+            <img src="assets/images/speed-tracker-640.jpg" width="400px" class="float-sm-left mr-3 mb-2">
+
+            <p>This is actually a combination of two desktop apps (Speed Tracker and Speed Viewer) that I wrote in C#.  </p>
+            <p>Speed Tracker takes serial input from a radar gun through an RS232 to USB converter.  A user can then mark on a tennis court diagram where the ball landed.  This data is stored in a MySQL database, and simple stats are displayed on the screen as the data is collected.</p>
+            <p>The companion program Speed Viewer allows for viewing of historical data in detailed scatter chart and table views for in-depth analysis.</p>
+            <a href="portfolio.html" class="btn btn-info">Back to Portfolio</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    </div>
+
+</body>
+
+</html>
