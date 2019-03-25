@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Portfolio Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container col-12">
+        <div class="row mb-4 bg-white" id="navRow">
+            <div class="col-sm-3"></div>
+            <nav class="navbar sticky-top navbar-light bg-white col-sm-6 py-0 pl-0">
+                <span class="navbar-brand mb-0 bg-info p-3 h1 font-weight-bold text-white">James Rader</span>
+                <ul class="nav justify-content-end ml-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary px-0" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary no-hover">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary px-0" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col-0 col-sm-3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white h2 pt-2 mx-3 text-info my-0">Custom Authorize.net Sales Stats
+            <hr>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 bg-white mx-3 pb-3">
+            <img src="assets/images/authorize-net-400.jpg" class="img-fluid ind-portfolio float-sm-left mr-3 mb-2">
+            <p>We needed a method to see the sales stats from Authorize.net in a convenient, customized way.  I was able to write a PHP script to access the Authorize.net API. I used a Cron job to run the script every night. This allowed me to get the information for each day's batch of transactions. It was returned in the form of XML data. After parsing the XML data, I used Flash (this was originally built in 2010) to present the information on the Drupal site.</p>
+            <a href="portfolio.html" class="btn btn-info">Back to Portfolio</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    </div>
+
+</body>
+
+</html>
